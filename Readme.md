@@ -9,9 +9,9 @@ https://fusowasedr09.github.io/for-Japanese_Restream/streamplayer.html
 ## roleset.py  
 Japanese RestreamのDiscordのイベント毎カテゴリ（〇〇解説、〇〇スタッフ）の設定が（だいたい）できるDiscordのbot。専用機なのでbotのビルドが必要。  
 ### 必要環境
-・Python 3.8~
-・discord.py 1.7~
-・botのアカウント
+・Python 3.8~  
+・discord.py 1.7~  
+・botのアカウント  
 ### 使い方  
 1.botに「manage Roles」「Manage channels」「View Channel」「Send message」の権限を渡して招待  
 2.botを起動させる  
