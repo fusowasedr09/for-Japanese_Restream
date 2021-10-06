@@ -5,7 +5,7 @@ import discord
 from discord.ext import commands
 
 bot = commands.Bot(command_prefix="/")
-token = "ODk0ODAxNTkwODUzMjA2MDM2.YVvS6w.Fj4TriZ0_kqxUx-99JXHnoSTJwE"
+token = ""
 
 # 起動メッセージ
 @bot.event
