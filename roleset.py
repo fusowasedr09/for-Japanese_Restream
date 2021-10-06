@@ -63,9 +63,9 @@ async def create(ctx, arg):
         Admin: discord.PermissionOverwrite(read_messages=True, send_messages=True),
         Svol: discord.PermissionOverwrite(read_messages=True, send_messages=False)
     }
-    guidance1 = await category1.create_text_channel(name="\N{Japanese Symbol for Beginner}案内")
+    #guidance1 = await category1.create_text_channel(name="\N{Japanese Symbol for Beginner}案内")
     #await guidance1.send("テスト")
-    await guidance1.edit(overwrites=g1overwrites)
+    #await guidance1.edit(overwrites=g1overwrites)
 
 
     ## スタッフ用チャンネルの作成（権限はカテゴリと同期）
@@ -103,9 +103,9 @@ async def create(ctx, arg):
         Admin: discord.PermissionOverwrite(read_messages=True, send_messages=True),
         Svol: discord.PermissionOverwrite(read_messages=True, send_messages=False)
     }
-    guidance2 = await category2.create_text_channel(name="\N{Japanese Symbol for Beginner}はじめに", overwrites=g2overwrites)
+    #guidance2 = await category2.create_text_channel(name="\N{Japanese Symbol for Beginner}はじめに", overwrites=g2overwrites)
     #await guidance2.send("テスト")
-    await guidance2.edit(overwrites=g1overwrites)
+    #await guidance2.edit(overwrites=g1overwrites)
 
     ## 解説用チャンネルの作成（権限はカテゴリと同期）
     for c2TextChannel_Name in c2TextChannel_Names:
