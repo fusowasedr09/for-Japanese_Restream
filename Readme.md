@@ -26,6 +26,6 @@ Japanese RestreamのDiscordのイベント毎カテゴリ（〇〇解説、〇�
 また、複数作成もチェックしていないため気をつけること。  
 間違った場合、削除機能は入っていないためAdministratorに削除してもらってください。  
 
-## roleset(fortest).py
+## roleset(for_test).py
 roleset.pyのテスト用です。  
 ID依存を切っているので個人サーバーでも動きますが、"Administrator"と"Sボランティア"の名称がついたロールを事前に用意してください。
