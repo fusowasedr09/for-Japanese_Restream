@@ -15,7 +15,7 @@ async def on_ready():
 # コマンド本体
 # 使用の際にはbotにチャンネル管理、ロール管理、チャンネルの閲覧、メッセージの送信権限を与えてください（面倒なら管理者でも可）
 @bot.command()
-@commands.has_any_role("Administrator","Sボランティア")
+@commands.has_any_role(274106397396959232,865998329548505088)
 async def create(ctx, arg):
     guild = ctx.guild
     await ctx.send("作成開始！\n完了までしばらくお待ち下さい。")
@@ -36,8 +36,8 @@ async def create(ctx, arg):
     role1 = await guild.create_role(name=rolename1, color=discord.Color.orange(), permissions=r1perms)
     role2 = await guild.create_role(name=rolename2, color=discord.Color.green(), permissions=r2perms)
     ## Administrator,Sボランティアを宣言
-    Admin = discord.utils.get(guild.roles, name="Administrator")
-    Svol = discord.utils.get(guild.roles, name="Sボランティア")
+    Admin = guild.get_role(274106397396959232)
+    Svol = guild.get_role(865998329548505088)
 
     # スタッフ用カテゴリ・チャンネル作成
     ## スタッフ用カテゴリの作成
