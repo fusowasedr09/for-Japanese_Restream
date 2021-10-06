@@ -5,7 +5,7 @@ import discord
 from discord.ext import commands
 
 bot = commands.Bot(command_prefix="/")
-token = ""
+token = "ここにトークンを記載"
 
 # 起動メッセージ
 @bot.event
